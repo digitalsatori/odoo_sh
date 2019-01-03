@@ -16,7 +16,7 @@
     <!-- actions opening views on models -->
     <record model="ir.actions.act_window" id="library_management.action_window">
       <field name="name">library_management window</field>
-      <field name="res_model">library_management.library_management</field>
+      <field name="res_model">library_management.books</field>
       <field name="view_mode">tree,form</field>
     </record>
 

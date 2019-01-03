@@ -6,6 +6,7 @@ from odoo import models, fields
 class BookTags(models.Model):
     _description = "Tags for library books"
     _name = 'library_management.booktags'
+    _rec_name = 'tagname'
 
     tagname = fields.Char()
     color_index = fields.Integer()
